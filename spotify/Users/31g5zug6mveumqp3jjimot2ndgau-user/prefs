@@ -1,0 +1,2 @@
+audio.play_bitrate_non_metered_migrated=true
+connect.dial_devices="[{\"address\":\"10.0.0.213\",\"app_state\":\"INSTALLABLE\",\"created_timestamp\":1709067083,\"device_id\":\"ea89d558-9a9c-4e13-b50a-4332ce08562e\",\"dial_location_url\":\"http://10.0.0.213:1823/\",\"display_name\":\"LG Web Os\",\"last_seen\":1709068102,\"manufacturer\":\"LG Electronics\",\"model_name\":\"LG Smart TV\",\"product_cap\":\"\",\"public_ip\":\"2601:2c7:4300:9350:0:0:0:bb03\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":50,\"mac\":\"388c502ef0c1\",\"port\":9,\"retries\":2400}}]"

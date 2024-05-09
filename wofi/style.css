@@ -1,0 +1,28 @@
+window {
+  font-family: "CaskaydiaCove NF", monospace;
+  font-size: 18px;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+#entry:selected {
+  background-color:white;
+  color:black;
+  outline: none;
+  padding: 3px 0;
+}
+
+#text:selected {
+  color: black;
+}
+
+#input {
+  border: none;
+  border-radius: 0px;
+  display: none;
+}
+
+#input : focus {
+  outline: none;
+}
+*/

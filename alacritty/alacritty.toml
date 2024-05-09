@@ -1,0 +1,4 @@
+import = ["/home/prince/.config/alacritty/themes/themes/base16_default_dark.toml"]
+
+[font.normal]
+family = "CaskaydiaCove NF"

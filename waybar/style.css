@@ -1,0 +1,59 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
+  font-family: "CaskaydiaCove NF", monospace;
+  /*font-weight: bold;*/
+  min-height: 0;
+}
+
+
+window#waybar{
+  padding-top: 1rem;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: #ffffff;
+    border-bottom: 3px solid transparent;
+}
+
+#workspaces button.focused {
+    background: #4c566a;
+    border: 3px solid #e5e9f0;
+    padding: 20px;
+    border-radius: 100%;
+
+}
+
+#workspaces button.urgent {
+  color: #ff7377;
+}
+
+#clock, #battery, #cpu, #memory, #temperature, #backlight, #network, #pulseaudio, #custom-media, #tray, #mode, #idle_inhibitor {
+    padding: 0 5px;
+    margin: 0 2px;
+}
+
+#network.disconnected {
+  color: #ff7377;
+}
+
+#pulseaudio.muted {
+  color: #ff7377;
+}
+
+#clock {
+  background-color: white;
+  color: black;
+  border-radius: 2px;
+}
+
+#battery.warning { color: #fffdc9; }
+#battery.critical { color: #ff7377; }
+#battery.good { color: #cbffc9; }
+
